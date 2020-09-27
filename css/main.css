@@ -1,4 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Flamenco&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
 .main {
   background: url(../img/Siysk8N.jpg);
-  color: red;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  font-family: "Flamenco", cursive;
+  font-size: 10em;
+  background: linear-gradient(
+    180deg,
+    rgb(115, 255, 0),
+    rgb(0, 204, 255),
+    tomato,
+    yellow
+  );
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
