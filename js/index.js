@@ -1,4 +1,5 @@
-import main from "./main";
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./main";
 
-// should print `main` css class properties
-main();
+ReactDOM.render(<App />, document.querySelector(".main"));
